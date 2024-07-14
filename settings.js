@@ -40,10 +40,10 @@ BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DET
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || false  ,
 ALIVE: process.env.ALIVE || `default`,     
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
 };
